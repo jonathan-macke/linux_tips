@@ -11,8 +11,9 @@ Mount a RAM disk:
 $ mount -t tmpfs -o size=8g tmpfs /mnt/ramdisk
 ```
 
-Measure network perf:
-    On the target
+## Measure network perf:
+
+On the target
 ```shell
 $ nc -l 1234 > tmpfile2
 ```
